@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-describe('moj_tescik', function() {
+describe('Login', function() {
   it ('visits pah-fm website', function () {
     cy.visit('http://localhost:8080/login')
     cy.get('[name=username]')
